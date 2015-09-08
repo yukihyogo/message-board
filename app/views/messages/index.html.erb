@@ -17,9 +17,11 @@
                 <%= link_to "destroy" , message , method: :delete, data: { confirm: '削除してもよろしいですか？' } %>
             )
             <br>
+            <hr>
         <% end %>
     </div>
 </div>
 
 <% #部分テンプレートを読み込んでいる %>
 <%= render 'form' %>
+
